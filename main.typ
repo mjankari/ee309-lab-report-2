@@ -82,7 +82,7 @@ below $-5.3V$ in @circuit-with-negative-dc-source rather than $-5.7V$.
 
 === Question 2
 
-==== Circuit 3
+==== Circuit in @circuit-with-positive-dc-source
 
 In @circuit-with-positive-dc-source, The input voltage is being clipped below a
 certain threshold. In @circuit-with-positive-dc-source, the anode of the diode
@@ -103,7 +103,7 @@ $ V_"o" = 4.3V $
 
 This is shown in the oscilloscope output in @circuit-with-positive-dc-source.
 
-==== Circuit 4
+==== Circuit in @circuit-with-negative-dc-source
 
 The setup is the same, except that the DC voltage facing the anode of the diode
 is $-5V$ as seen in @circuit-with-negative-dc-source.
