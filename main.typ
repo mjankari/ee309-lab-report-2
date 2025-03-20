@@ -3,7 +3,8 @@
 )
 
 #set text(
-  font: "Liberation Serif"
+  font: "Liberation Serif",
+  size: 12pt
 )
 
 == Objectives
