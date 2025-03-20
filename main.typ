@@ -7,6 +7,8 @@
   size: 12pt
 )
 
+#show heading: set block(below: 2em, above: 2em)
+
 #set par(
     justify: true
 )
