@@ -40,22 +40,20 @@ the green line represents the voltage being read $V_"o"$.
 )
 
 #figure(
-    image("./figures/circuit3.jpeg", width: 50%),
-    caption: [Circuit used in @circuit-with-positive-dc-source]
-) <schematics-of-positive>
-
-#figure(
-    image("./figures/add-positive-dc-source.jpeg", width: 70%),
-    caption: [Adding Extra Positive DC Voltage Source (+5V)]
+    grid(
+        columns: 2,
+        image("./figures/circuit3.jpeg", width: 50%),
+        image("./figures/add-positive-dc-source.jpeg", width: 90%),
+    ),
+    caption: [Adding Extra Positive DC Voltage Source (+5V))]
 ) <circuit-with-positive-dc-source>
 
 #figure(
-    image("./figures/circuit4.jpeg", width: 50%),
-    caption: [Circuit used in @circuit-with-negative-dc-source]
-) <schematics-of-negative>
-
-#figure(
-    image("./figures/add-negative-dc-source.jpeg", width: 70%),
+    grid(
+        columns: 2,
+        image("./figures/circuit4.jpeg", width: 50%),
+        image("./figures/add-negative-dc-source.jpeg", width: 90%),
+    ),
     caption: [Adding Extra Negative DC Voltage Source (-5V)]
 ) <circuit-with-negative-dc-source>
 
@@ -73,17 +71,17 @@ Silicon can withstand high voltages, which makes it much more flexible than
 germanium, which is the softer more fragile type of the two. 
 
 Using germanium in the context of the experiment, the output voltage will be
-clipped below $4.7V$ in @circuit-with-positive-dc-source rather than $4.3V$, and below
-$-5.3V$ in @circuit-with-negative-dc-source rather than $-5.7V$.
+clipped below $4.7V$ in @circuit-with-positive-dc-source rather than $4.3V$, and
+below $-5.3V$ in @circuit-with-negative-dc-source rather than $-5.7V$.
 
 === Question 2
 
 ==== Circuit 3
 
 In @circuit-with-positive-dc-source, The input voltage is being clipped below a
-certain threshold. In @schematics-of-positive, the anode of the diode faces
-a positive DC source of $5V$, while the cathode of the diode faces the positive
-side of $V_"in"$.
+certain threshold. In @circuit-with-positive-dc-source, the anode of the diode
+faces a positive DC source of $5V$, while the cathode of the diode faces the
+positive side of $V_"in"$.
 
 For the voltage to be read in $V_"o"$, $V_"in"$ facing the negative side of the
 diode must be larger than the combined voltage in the positive side.
@@ -102,7 +100,7 @@ This is shown in the oscilloscope output in @circuit-with-positive-dc-source.
 ==== Circuit 4
 
 The setup is the same, except that the DC voltage facing the anode of the diode
-is $-5V$ as seen in @schematics-of-negative.
+is $-5V$ as seen in @circuit-with-negative-dc-source.
 
 The $V_o$ becomes as follows: 
 
@@ -133,11 +131,11 @@ In reverse bias, the diode will behave like an open circuit and effectively
 prevent current flow unless the reverse voltage exceeds the diode's breakdown
 voltage.
 
-This behavior explains why in @schematics-of-positive and
-@schematics-of-negative, when the input voltage ($V_"in"$) is lower than a
-certain threshold relative to the DC voltage, the diode effectively "shuts off"
-current flow and causes the output voltage ($V_o$) to be clipped to the
-respective values ($4.3V$ and $-5.7V$).
+This behavior explains why in @circuit-with-positive-dc-source and
+@circuit-with-negative-dc-source, when the input voltage ($V_"in"$) is lower
+than a certain threshold relative to the DC voltage, the diode effectively
+"shuts off" current flow and causes the output voltage ($V_o$) to be clipped to
+the respective values ($4.3V$ and $-5.7V$).
 
 Other cases when the diode acts like an open circuit is when the applied voltage
 is smaller than the diode's reverse breakdown voltage (for silicon, typically
