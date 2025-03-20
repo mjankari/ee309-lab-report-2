@@ -30,12 +30,20 @@ In the figures, the yellow line represents the input AC voltage $V_"in"$, and
 the green line represents the voltage being read $V_"o"$.
 
 #figure(
-    image("./figures/remove-positive-voltage.jpeg", width: 70%),
+    grid(
+        columns: 2,
+        image("./figures/circuit1.jpeg", width: 70%),
+        image("./figures/remove-positive-voltage.jpeg", width: 90%),
+    ),
     caption: [To Remove Positive Voltage Above $+V_y$ Level]
 )
 
 #figure(
-    image("./figures/remove-negative-voltage.jpeg", width: 70%),
+    grid(
+        columns: 2,
+        image("./figures/circuit2.jpeg", width: 70%),
+        image("./figures/remove-negative-voltage.jpeg", width: 90%),
+    ),
     caption: [To Remove Negative Voltage Peak Below $-V_y$ Level]
 )
 
