@@ -7,15 +7,11 @@
   size: 12pt
 )
 
-#set heading(
-    numbering: "1."
-)
-
 #set par(
     justify: true
 )
 
-= EE309 Experiment 2 Laboratort Report
+= EE309 Experiment 2 Laboratory Report
 
 == Objectives
 
@@ -53,7 +49,7 @@ the green line represents the voltage being read $V_"o"$.
         image("./figures/circuit3.jpeg", width: 50%),
         image("./figures/add-positive-dc-source.jpeg", width: 90%),
     ),
-    caption: [Adding Extra Positive DC Voltage Source (+5V))]
+    caption: [Adding Extra Positive DC Voltage Source (+5V)]
 ) <circuit-with-positive-dc-source>
 
 #figure(
