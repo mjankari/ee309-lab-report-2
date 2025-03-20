@@ -40,9 +40,19 @@ the green line represents the voltage being read $V_"o"$.
 )
 
 #figure(
+    image("./figures/circuit3.jpeg", width: 50%),
+    caption: [Circuit used in @circuit-with-positive-dc-source]
+) <schematics-of-positive>
+
+#figure(
     image("./figures/add-positive-dc-source.jpeg", width: 70%),
     caption: [Adding Extra Positive DC Voltage Source (+5V)]
 ) <circuit-with-positive-dc-source>
+
+#figure(
+    image("./figures/circuit4.jpeg", width: 50%),
+    caption: [Circuit used in @circuit-with-negative-dc-source]
+) <schematics-of-negative>
 
 #figure(
     image("./figures/add-negative-dc-source.jpeg", width: 70%),
@@ -70,11 +80,6 @@ $-5.3V$ in @circuit-with-negative-dc-source rather than $-5.7V$.
 
 ==== Circuit 3
 
-#figure(
-    image("./figures/circuit3.jpeg", width: 50%),
-    caption: [Circuit used in @circuit-with-positive-dc-source]
-) <schematics-of-positive>
-
 In @circuit-with-positive-dc-source, The input voltage is being clipped below a
 certain threshold. In @schematics-of-positive, the anode of the diode faces
 a positive DC source of $5V$, while the cathode of the diode faces the positive
@@ -95,11 +100,6 @@ $ V_"o" = 4.3V $
 This is shown in the oscilloscope output in @circuit-with-positive-dc-source.
 
 ==== Circuit 4
-
-#figure(
-    image("./figures/circuit4.jpeg", width: 50%),
-    caption: [Circuit used in @circuit-with-negative-dc-source]
-) <schematics-of-negative>
 
 The setup is the same, except that the DC voltage facing the anode of the diode
 is $-5V$ as seen in @schematics-of-negative.
