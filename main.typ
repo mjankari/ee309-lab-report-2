@@ -7,6 +7,10 @@
   size: 12pt
 )
 
+#set par(
+    justify: true
+)
+
 == Objectives
 
 - To observe the output waveform of clipping circuits on an oscilloscope.
