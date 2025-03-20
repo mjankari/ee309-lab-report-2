@@ -67,6 +67,9 @@ the green line represents the voltage being read $V_"o"$.
 
 === Question 1
 
+*What could happen if the diode's type would be changed from silicon to
+germanium?*
+
 Switching the diode type from silicon to germanium will result in a lower
 threshold voltage, as silicon has a threshold voltage of $V_y = 0.7V$, while
 germanium has $V_y = 0.3V$.
@@ -81,6 +84,9 @@ clipped below $4.7V$ in @circuit-with-positive-dc-source rather than $4.3V$, and
 below $-5.3V$ in @circuit-with-negative-dc-source rather than $-5.7V$.
 
 === Question 2
+
+*Try to explain the logic behind the result of @circuit-with-positive-dc-source
+and @circuit-with-negative-dc-source*
 
 ==== Circuit in @circuit-with-positive-dc-source
 
@@ -120,6 +126,8 @@ As in, $V_o$ is -5.7V when Vin is smaller than -5.7V. this is shown in
 @circuit-with-negative-dc-source.
 
 === Question 3
+
+*Why a diode act like an open circuit? In which circumstances this occur?*
 
 A diode acts like an open circuit for several reasons, primarily when it is in
 reverse bias.
