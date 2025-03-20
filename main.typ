@@ -1,3 +1,7 @@
+#set page(
+    paper: "a4"
+)
+
 #set text(
   font: "Liberation Serif"
 )
