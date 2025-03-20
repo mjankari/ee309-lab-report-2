@@ -7,9 +7,15 @@
   size: 12pt
 )
 
+#set heading(
+    numbering: "1."
+)
+
 #set par(
     justify: true
 )
+
+= EE309 Experiment 2 Laboratort Report
 
 == Objectives
 
